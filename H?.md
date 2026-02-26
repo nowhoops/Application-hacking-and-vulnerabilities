@@ -186,8 +186,10 @@ Found:
 
 Also PasswordDigest → ONVIF.
 
-`strings bin/main | grep -i crypt`  
-Found: `update_root_passwd_for_encrypt`
+`strings bin/main | grep -i crypt`
+`found ->update_root_passwd_for_encrypt`
+`strings -t x bin/main | grep -i update_root_passwd_for_encrypt`
+ `2ad37c update_root_passwd_for_encrypt`
 
 ---
 
