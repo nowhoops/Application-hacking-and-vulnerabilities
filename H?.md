@@ -6,6 +6,7 @@
 
 Started at 16:30  FEB 26th
 Task form: https://hhmoodle.haaga-helia.fi/course/view.php?id=45171
+
 Download and install 
 https://github.com/robbins/tp-link-decrypt
 
@@ -23,4 +24,15 @@ Tasks:
     extract rootfs from the image file
     search available applications
     analyse and try to open root password
+
+I started everyting by downloading the tasks:
+git clone https://github.com/robbins/tp-link-decrypt
+go a file with this inside:
+example.jpg  extract_keys.sh  Makefile  preinstall.sh  README.md  shell.nix  src
+
+I ran ./preinstall.sh to to satisfy dependencies. 
+
+
+
+
 
