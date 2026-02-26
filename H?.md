@@ -151,11 +151,7 @@ extract rootfs: **check**
 
 ---
 
-## Exploring Files
 
-`cat etc/passwd`  
-`cat etc/shadow`  
-→ No such file or dir.
 
 ---
 
