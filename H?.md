@@ -33,6 +33,7 @@ example.jpg  extract_keys.sh  Makefile  preinstall.sh  README.md  shell.nix  src
 I ran ./preinstall.sh to to satisfy dependencies. 
 
 
+<img width="502" height="161" alt="image" src="https://github.com/user-attachments/assets/1f09dff3-c4ef-46ff-9a92-fa7b98c53d8c" />
 
 
 
