@@ -167,10 +167,12 @@ squashfs-root/
 ``` cat etc/shadow```
  Nothing ):
 
- Tried to find somthings in the bin/main with:
+ - Tried to find somthings in the bin/main with:
+ ```
 strings bin/main | grep -i login
 strings bin/main | grep -i root
 strings bin/main | grep -i passwd
+```
 
 Sure that Authentication handled in /bin/main
 
