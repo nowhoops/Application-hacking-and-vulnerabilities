@@ -217,9 +217,8 @@ Also PasswordDigest → ONVIF.
 
 Nothing actually too usefull I think.
 
-<img width="1160" height="791" alt="image" src="https://github.com/user-attachments/assets/1da3f34c-e444-457d-86b8-9a7733c3348e" />
-
 ---
+
 ## CVE‑2025‑8065
 (- https://www.cvedetails.com/cve/CVE-2025-8065)
 
