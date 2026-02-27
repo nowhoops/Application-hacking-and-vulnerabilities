@@ -157,14 +157,14 @@ extract rootfs: **check**
 ## Tapo dump analysis
 _dump-tapo-c200v3-1.4.2.bin-0.extracted/squashfs-root conteins:
 squashfs-root/
- `├── bin`
- `├── config`
- `├── etc`
- `├── lib`
- `└── usr`
+ - `├── bin`
+ - `├── config`
+ - `├── etc`
+ - `├── lib`
+ - `└── usr`
  First things firt:
-´´´ cat etc/passwd´´´
-´´´ cat etc/shadow´´´
+``` cat etc/passwd```
+``` cat etc/shadow```
  Nothing ):
 
  Tried to find somthings in the bin/main with:
