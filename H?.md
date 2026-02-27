@@ -207,15 +207,19 @@ Found:
 
 Also PasswordDigest → ONVIF.
 
+
 `strings bin/main | grep -i crypt`
 `found ->update_root_passwd_for_encrypt`
 `strings -t x bin/main | grep -i update_root_passwd_for_encrypt`
  `2ad37c update_root_passwd_for_encrypt`
 
+Nothing actually too usefull I think.
+
 <img width="1160" height="791" alt="image" src="https://github.com/user-attachments/assets/1da3f34c-e444-457d-86b8-9a7733c3348e" />
 
 ---
 ## CVE‑2025‑8065
+(- https://www.cvedetails.com/cve/CVE-2025-8065)
 
 I wanted to check if there is a CVE for the firmware version I’m analyzing (*Tapo_C200v3_en_1.4.2*).  
 I found a possible vulnerability (CVE‑2025‑8065) related to the ONVIF XML parser.  
@@ -310,15 +314,13 @@ dd if=dump-tapo-c200v3-1.4.2.bin \
 Rest Ill do when I have time (:
 
 ---
-
 ## Sources
- 
-https://static.tp-link.com/upload/gpl-code/2022/202211/20221130/c310v2_GPL.tar.bz2
 
- https://www.cvedetails.com/version/498090/Linux-Linux-Kernel-3.10.14.htm
- https://www.cvedetails.com/cve/CVE-2025-8065/
-
-https://gist.github.com/werew/cad8f30bc930bfca385554b443eec2a7
-- http://download.tplinkcloud.com/firmware/ax6000v2-up-ver1-1-2-P1[20230731-rel41066]_1024_nosign_2023-07-31_11.26.17_1693471186048.bin.rollback  
-- http://download.tplinkcloud.com/firmware/Tapo_C210v1_en_1.3.1_Build_221218_Rel.73283n_u_1679534600836.bin  
+- https://static.tp-link.com/upload/gpl-code/2022/202211/20221130/c310v2_GPL.tar.bz2
+- https://www.cvedetails.com/version/498090/Linux-Linux-Kernel-3.10.14.htm
+- https://www.cvedetails.com/cve/CVE-2025-8065/
+- https://gist.github.com/werew/cad8f30bc930bfca385554b443eec2a7
+- http://download.tplinkcloud.com/firmware/ax6000v2-up-ver1-1-2-P1[20230731-rel41066]_1024_nosign_2023-07-31_11.26.17_1693471186048.bin.rollback
+- http://download.tplinkcloud.com/firmware/Tapo_C210v1_en_1.3.1_Build_221218_Rel.73283n_u_1679534600836.bin
 - https://static.tp-link.com/resources/gpl/rtk-maple_gpl.tar.gz
+
