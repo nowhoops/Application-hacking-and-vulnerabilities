@@ -205,7 +205,9 @@ Found:
 - mbedtls_md_hmac_finish  
 - [telemetry]hmac_sha1_encode error  
 - HMAC with password: %s  
-- hmac-not-implemented  
+- hmac-not-implemented
+- hub_passwd
+- factory_passwd
 
 Also PasswordDigest → ONVIF.
 
@@ -213,9 +215,13 @@ Also PasswordDigest → ONVIF.
 `strings bin/main | grep -i crypt`
 `found ->update_root_passwd_for_encrypt`
 `strings -t x bin/main | grep -i update_root_passwd_for_encrypt`
- `2ad37c update_root_passwd_for_encrypt`
+`2ad37c update_root_passwd_for_encrypt`'
+`/dsd_convert.json: "changeAdminPassword": "do",`
+`/dsd_convert.json: "getP2PSharePassword": "do",`
 
-Nothing actually too usefull I think.
+ 
+I found lots of things but alot nothing actually too usefull I think. Couldn't find root at this time. It is probaly here somewhere since it gets the Passwords as a hash (%s) Im guessing you could read it of the device memory or change it something you want.
+
 
 ---
 
