@@ -286,7 +286,11 @@ pdf
 
 <img width="1162" height="969" alt="image" src="https://github.com/user-attachments/assets/680b4820-4b90-4b4d-839f-951b2e0c3d28" />
 
+
+
 ---
+
+
 
 ### Notes  
 The function appears to parse SOAP element text.  
@@ -321,6 +325,9 @@ dd if=dump-tapo-c200v3-1.4.2.bin \
 Rest Ill do when I have time (:
 
 ---
+
+
+
 ## Sources
 
 - https://static.tp-link.com/upload/gpl-code/2022/202211/20221130/c310v2_GPL.tar.bz2
